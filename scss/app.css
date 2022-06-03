@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* cambio il colore del testo in base alla luminosità del colore di sfondo in hsl corrisponde al terzo valore dato in %*/
+/* light-background */
+/* dark-background */
+.bgVerdeScu {
+  background-color: #26542e;
+}
+
+main {
+  /* #services{
+        background-color: #4f2777;
+        color: coloreTesto(#4f2777);}   formattazione rapida esempio per funzione. Cambiare colore di &color */
+}
+
+main #first-cta {
+  background: -webkit-gradient(linear, left top, left bottom, from(#51b362), to(white));
+  background: linear-gradient(#51b362, white);
+  color: #000000;
+}
+
+main #reviews {
+  background: -webkit-gradient(linear, left top, left bottom, from(#cee9d2), to(#51b362));
+  background: linear-gradient(#cee9d2, #51b362);
+  color: #000000;
+}
+/*# sourceMappingURL=app.css.map */

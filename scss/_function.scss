@@ -1,0 +1,9 @@
+/* cambio il colore del testo in base alla luminosità del colore di sfondo in hsl corrisponde al terzo valore dato in %*/
+
+@function coloreTesto ($colour) {
+  @if (lightness($colour) > 50) {
+    @return #000000; // Background chiaro, torna testo scuro
+  } @else {
+    @return #ffffff; // Background scuro, torna testo chiaro
+}
+}
